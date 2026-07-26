@@ -11,3 +11,6 @@
 - 기술 선택 이유
 - 회고
 
+## Notes
+
+- [Domain Session Cookie](./2026-07-21-domain-session-cookie.md): `domain.com`과 `www.domain.com`의 로그인 세션 쿠키 관리 정리
