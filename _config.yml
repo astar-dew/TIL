@@ -12,9 +12,9 @@ header_pages:
   - index.md
   - web/README.md
   - app/README.md
+  - ai/README.md
   - cs/README.md
   - devops/README.md
   - language/README.md
   - projects/README.md
   - interview/README.md
-
