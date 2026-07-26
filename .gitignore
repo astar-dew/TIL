@@ -1,0 +1,13 @@
+
+
+list.md
+
+# Jekyll local build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby local dependencies
+.bundle/
+vendor/
