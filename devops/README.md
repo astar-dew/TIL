@@ -12,3 +12,6 @@
 - 모니터링
 - 로그 관리
 
+## Notes
+
+- [Cloudflare Pages와 Workers 배포 중 캐시로 인한 오류](./2026-07-23-cloudflare-pages-workers-cache-deploy-error.md): React 프론트엔드 배포 중 캐시로 발생한 간헐적 빌드/배포 오류 정리
