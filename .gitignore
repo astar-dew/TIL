@@ -1,15 +1,10 @@
-
-
 # Local study plans
 list.md
 ai-study.md
 
-# Jekyll local build output
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# MkDocs build output
+site/
 
-# Ruby local dependencies
-.bundle/
-vendor/
+# Python local environment
+.venv/
+__pycache__/

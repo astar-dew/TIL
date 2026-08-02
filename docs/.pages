@@ -1,0 +1,11 @@
+nav:
+  - index.md
+  - web
+  - app
+  - ai
+  - cs
+  - devops
+  - language
+  - projects
+  - interview
+  - tags.md

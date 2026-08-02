@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "[학습 정리] 제목"
 date: YYYY-MM-DD
-categories: [category]
 tags: [tag1, tag2]
 description: "이 글에서 정리할 핵심 내용을 한 문장으로 적는다."
 ---

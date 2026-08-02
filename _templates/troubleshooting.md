@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "[트러블슈팅] 제목"
 date: YYYY-MM-DD
-categories: [category]
 tags: [tag1, tag2]
 description: "발생한 문제와 해결 방향을 한 문장으로 적는다."
 ---

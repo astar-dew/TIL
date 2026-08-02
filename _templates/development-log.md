@@ -1,8 +1,6 @@
 ---
-layout: post
 title: "[개발 일지] 제목"
 date: YYYY-MM-DD
-categories: [projects]
 tags: [project, log]
 description: "오늘 진행한 작업의 핵심 결과를 한 문장으로 적는다."
 ---
