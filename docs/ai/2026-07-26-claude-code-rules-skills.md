@@ -51,9 +51,9 @@ project/
 # Project Guide
 
 - 문서와 답변은 한국어로 작성한다.
-- 학습 글은 Jekyll front matter를 포함한다.
-- 글 파일은 주제에 맞는 카테고리 디렉터리에 생성한다.
-- 새 글을 만들면 해당 카테고리의 README에 링크를 추가한다.
+- 학습 글은 front matter에 `title`, `date`, `tags`, `description`을 포함한다.
+- 글 파일은 `docs/` 아래 주제에 맞는 카테고리 디렉터리에 생성한다.
+- 새 글을 만들면 해당 카테고리의 `index.md`에 링크를 추가한다.
 - Markdown 변경 후 `git diff --check`를 실행한다.
 ```
 
@@ -112,15 +112,15 @@ Claude가 일치하는 파일을 작업할 때만 해당 Rule이 적용된다.
 ```md
 ---
 paths:
-  - "app/**/*.md"
-  - "web/**/*.md"
+  - "docs/app/**/*.md"
+  - "docs/web/**/*.md"
 ---
 
 # Development Post Rules
 
-- Jekyll front matter에 `layout`, `title`, `date`, `categories`, `tags`를 작성한다.
+- front matter에 `title`, `date`, `tags`, `description`을 작성한다.
 - 코드 예제에는 실행 환경이나 파일 위치를 함께 적는다.
-- 카테고리 README에 새 글의 링크를 추가한다.
+- 카테고리 `index.md`에 새 글의 링크를 추가한다.
 ```
 
 경로별 Rule은 관련 없는 작업에 세부 지침이 포함되는 것을 줄여
@@ -158,9 +158,9 @@ argument-hint: "[주제] [템플릿]"
 
 1. 사용자가 제공한 사실, 오류 메시지, 실행 환경을 확인한다.
 2. 목적에 따라 `_templates/`에서 학습, 트러블슈팅, 개발 일지 템플릿을 선택한다.
-3. 주제에 맞는 카테고리 디렉터리에 날짜와 제목으로 파일을 생성한다.
-4. 카테고리 README에 글 링크를 추가한다.
-5. front matter와 내부 링크를 검증한다.
+3. `docs/` 아래 주제에 맞는 카테고리 디렉터리에 날짜와 제목으로 파일을 생성한다.
+4. 카테고리 `index.md`에 글 링크를 추가한다.
+5. `mkdocs build --strict`로 front matter와 내부 링크를 검증한다.
 
 상세 작성 기준이 필요하면 [writing-guide.md](references/writing-guide.md)를 읽는다.
 ```

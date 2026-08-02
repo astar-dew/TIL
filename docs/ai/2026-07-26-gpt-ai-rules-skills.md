@@ -45,7 +45,7 @@ Codex에서는 저장소의 `AGENTS.md`가 이 역할을 담당한다.
 # AGENTS.md
 
 - 답변과 문서는 한국어로 작성한다.
-- 학습 글은 Jekyll front matter를 포함한다.
+- 학습 글은 front matter에 `title`, `date`, `tags`, `description`을 포함한다.
 - 트러블슈팅 글은 현상, 원인, 해결, 검증 순서로 작성한다.
 - 변경한 Markdown 파일은 링크와 형식을 확인한다.
 ```
@@ -86,8 +86,8 @@ description: 개발 오류의 현상, 원인, 해결, 검증 과정을 TIL 글�
 2. `_templates/troubleshooting.md` 형식을 사용한다.
 3. 확인된 사실과 추정 내용을 구분한다.
 4. 재현 및 해결 명령어를 코드 블록으로 작성한다.
-5. 카테고리 README에 글 링크를 추가한다.
-6. Markdown 형식과 내부 링크를 검증한다.
+5. 카테고리 `index.md`에 글 링크를 추가한다.
+6. `mkdocs build --strict`로 Markdown 형식과 내부 링크를 검증한다.
 ```
 
 필요하면 Skill에 스크립트와 참고 자료를 포함할 수 있다.
