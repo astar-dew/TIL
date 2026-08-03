@@ -27,7 +27,15 @@ hide:
 
 -   :material-chip: **[Computer Science](cs/index.md)**
 
-    자료구조, 알고리즘, 네트워크, 운영체제 등 CS 기본기 정리
+    네트워크, 운영체제, 컴퓨터 구조 등 CS 기본기 정리
+
+-   :material-sitemap: **[Algorithm](algorithm/index.md)**
+
+    알고리즘·자료구조 개념과 코딩테스트 문제 풀이 기록
+
+-   :material-shape-outline: **[Software Design](design/index.md)**
+
+    디자인 패턴, SOLID, 아키텍처 패턴, 리팩터링 정리
 
 -   :material-cog-sync: **[DevOps](devops/index.md)**
 

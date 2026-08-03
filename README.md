@@ -25,6 +25,10 @@ TIL
 │   ├── app/
 │   ├── ai/
 │   ├── cs/
+│   ├── algorithm/
+│   │   ├── concepts/     # 알고리즘·자료구조 개념
+│   │   └── problems/     # 문제 풀이 (유형별 하위 폴더)
+│   ├── design/
 │   ├── devops/
 │   ├── language/
 │   ├── projects/
