@@ -24,4 +24,4 @@
 
 ## Notes
 
-아직 작성한 글이 없습니다.
+- [디자인 패턴 시작하기: 분류 체계와 실무에서 자주 만나는 패턴](./2026-08-14-design-patterns-overview.md): 생성·구조·행위 분류와 Strategy·Factory·Observer·Adapter 등을 문제·효과·비용 기준으로 정리
