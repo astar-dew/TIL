@@ -14,5 +14,6 @@
 
 ## Notes
 
+- [트랜잭션 격리 수준: 이상 현상과 DB별 실제 동작](./2026-08-14-transaction-isolation-levels.md): 네 가지 이상 현상, MySQL·PostgreSQL의 실제 동작 차이, MVCC와 갱신 유실을 막는 세 가지 방법 정리
 - [서버리스 DB의 트랜잭션 처리: Cloudflare D1과 카카오페이 결제](./2026-07-30-serverless-transaction-cloudflare-d1.md): D1의 `batch()` 원자성과 한계, 조건부 UPDATE 기반 결제 상태 머신, AWS 대비 성능·비용 비교 정리
 
