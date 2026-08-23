@@ -2,9 +2,23 @@
 list.md
 ai-study.md
 
+# 공개하지 않을 개인 메모
+business/
+career/
+
+# 로컬에서만 쓰는 템플릿
+_templates/troubleshooting.md
+
+# 공개하지 않을 AI 설정 (공개하려면 해당 줄만 삭제)
+CLAUDE.local.md
+.claude/skills/
+
 # MkDocs build output
 site/
 
 # Python local environment
 .venv/
 __pycache__/
+
+# macOS
+.DS_Store
