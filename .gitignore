@@ -5,6 +5,7 @@ ai-study.md
 # 공개하지 않을 개인 메모
 business/
 career/
+study/
 
 # 로컬에서만 쓰는 템플릿
 _templates/troubleshooting.md
@@ -12,6 +13,9 @@ _templates/troubleshooting.md
 # 공개하지 않을 AI 설정 (공개하려면 해당 줄만 삭제)
 CLAUDE.local.md
 .claude/skills/
+
+# 도구가 만드는 로컬 캐시
+.serena/
 
 # MkDocs build output
 site/
