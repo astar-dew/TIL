@@ -14,6 +14,7 @@
 
 ## Notes
 
+- [Django 개발자를 위한 Spring 지도: 무엇이 같고 무엇이 진짜 다른가](./2026-08-24-django-to-spring-map.md): 개념 1:1 대응표, 채용 공고 용어 해독, 정말로 새로 배워야 할 세 가지 정리
 - [Redis Lua 스크립트로 동시성 문제 풀기: 재고, 분산 락, Rate Limit](./2026-08-23-redis-lua-atomic-patterns.md): Lua 없이 짜면 깨지는 세 패턴과 원자성이 롤백이 아닌 이유, 운영 시 주의점 정리
 - [Django ORM과 DRF의 N+1 문제 최적화](./2026-07-20-django-drf-internals-and-tradeoffs.md): N+1 발생 원인과 `select_related`, `prefetch_related`, 쿼리 검증 방법 정리
 - [Django Middleware와 Signal의 동작 방식 및 트레이드오프](./2026-07-10-django-middleware-signal.md): 요청·응답 처리 순서와 Signal의 transaction·유지보수 이슈 정리
